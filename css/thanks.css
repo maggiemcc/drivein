@@ -1,0 +1,71 @@
+main h3,
+main h5 {
+  margin: 2% 0;
+  display: inline;
+}
+
+main {
+  min-height: 200px;
+}
+
+main h1 {
+  margin-bottom: 25px;
+}
+
+.thanks-content {
+  display: flex;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.thanks-content div {
+  margin-left: 5%;
+}
+
+main p {
+  margin-bottom: 3%;
+}
+
+main h3 {
+  text-align: left;
+  margin-top: 25px;
+}
+
+h5 {
+  font-family: "Lobster", cursive;
+  text-indent: 10px;
+  font-size: 1.3rem;
+}
+
+main i {
+  font-size: 80px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 451px) {
+.thanks-content {
+  display: flex;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+  .thanks-content {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .thanks-content i { 
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

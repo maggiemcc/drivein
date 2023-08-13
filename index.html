@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/images/redwood-logo.svg" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/header&Footer.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+
+  <title>Now Playing at Redwood Drive-In</title>
+</head>
+
+<body>
+  <!-- Begining of header -->
+  <div class="headerWrapper-desktop">
+    <div class="header-image">
+      <header>
+        <a href="/index.html">
+          <h1>Redwood Drive-In Theatre</h1>
+        </a>
+        <h5>West Valley City, Utah</h5>
+      </header>
+
+      <!-- Begining of Desktop Navigation -->
+      <div class="navWrapper">
+        <nav>
+          <ul class="dropdown">
+            <li id="active-desktop"><a href="/index.html">Now Playing</a></li>
+            <li><a href="/html/comingSoon.html">Coming Soon</a></li>
+            <li><a href="/html/swapmeet.html">Swap Meet</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+            <li><a href="/html/aboutUs.html">About Us</a></li>
+            <li><a href="/html/photos.html">Photos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Begining of Mobile Navigation -->
+
+  <div class="headerWrapper-mobile">
+    <header>
+      <div class="container">
+        <div class="subcontainer">
+          <nav class="navbar">
+            <a href="/index.html" class="navBranding">Redwood Drive-In</a>
+
+            <ul class="navMenu">
+              <li id="active-mobile"><a href="/index.html">Now Playing</a></li>
+              <li><a href="/html/comingSoon.html">Coming Soon</a></li>
+              <li><a href="/html/swapmeet.html">Swap Meet</a></li>
+              <li><a href="/html/contact.html">Contact</a></li>
+              <li><a href="/html/aboutUs.html">About Us</a></li>
+              <li><a href="/html/photos.html">Photos</a></li>
+            </ul>
+            <div class="hamburger">
+              <span>&#9776;</span>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+  <!-- end of wrapper -->
+
+  <main>
+    <h1>Now Playing</h1>
+
+    <div class="ticket-pricing">
+      <div>
+        <h3>Adults</h3>
+        <h3>$10</h3>
+      </div>
+
+      <div>
+        <h3>Kids</h3>
+        <h3>$1</h3>
+      </div>
+    </div>
+
+    <div class="ticket-info">
+      <p>Tickets can be purchased at the theatre.
+        The adult and kid tickets allows you admission for two movies playing
+        on the same screen (when not single billed). This means you'll get to
+        see two movies for half the price! The box office opens 1.5 hours
+        before showtime on Friday and Saturday nights. If you are planning to
+        see only the 2nd show, you'll want to arrive about thirty minutes
+        prior to showtime.
+      </p>
+    </div>
+
+    <div id="background-image">
+      <div id="dropdown">
+        <select id="movieDay">
+          <option value="Default">Select Day</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+      </div>
+
+      <div id="movieScreens">
+        <div class="screens">
+          <div class="movieScreen">
+            <div class="movie-screen-header">
+              <img src="/movieImages/header.png" alt="header">
+              <h1 class="screen-name">Screen One</h1>
+            </div>
+            <div class="movie-screen-body">
+              <div class="first-movie">
+                <h4 class="time1"></h4>
+                <img id="poster1" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie1"></h4>
+              </div>
+
+              <div class="second-movie">
+                <h4 class="time2"></h4>
+                <img id="poster2" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie2"></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="movieScreen">
+            <div class="movie-screen-header">
+              <img src="/movieImages/header.png" alt="header">
+              <h1 class="screen-name">Screen Two</h1>
+            </div>
+            <div class="movie-screen-body">
+              <div class="first-movie">
+                <h4 class="time3"></h4>
+                <img id="poster3" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie3"></h4>
+              </div>
+
+              <div class="second-movie">
+                <h4 class="time4"></h4>
+                <img id="poster4" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie4"></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="movieScreen">
+            <div class="movie-screen-header">
+              <img src="/movieImages/header.png" alt="header">
+              <h1 class="screen-name">Screen Three</h1>
+            </div>
+            <div class="movie-screen-body">
+              <div class="first-movie">
+                <h4 class="time5"></h4>
+                <img id="poster5" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie5"></h4>
+              </div>
+
+              <div class="second-movie">
+                <h4 class="time6"></h4>
+                <img id="poster6" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie6"></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="movieScreen">
+            <div class="movie-screen-header">
+              <img src="/movieImages/header.png" alt="header">
+              <h1 class="screen-name">Screen Four</h1>
+            </div>
+            <div class="movie-screen-body">
+              <div class="first-movie">
+                <h4 class="time7"></h4>
+                <img id="poster7" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie7"></h4>
+              </div>
+
+              <div class="second-movie">
+                <h4 class="time8"></h4>
+                <img id="poster8" class="posters" alt="poster" src="/movieImages/default-movie.png">
+                <h4 class="movie-title" id="movie8"></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Background image -->
+  </main>
+
+
+
+  <!-- Begining of footer -->
+  <footer>
+    <div class="footer-posters">
+      <div class="photos">
+        <a href="/html/swapmeet.html"><img src="/images/swapmeet.svg" alt="swap meet" class="lazy"></a>
+        <a href="https://redwooddrivein.com/enjoy/" target="_blank"><img src="/images/how-to.svg" alt="fqa"
+            class="lazy"></a>
+        <a href="https://redwooddrivein.com/coupons/" target="_blank"><img src="/images/coupons.svg" alt="coupons"
+            class="lazy"></a>
+      </div>
+    </div>
+
+    <div class="footer-locations">
+      <div id="locations-grid">
+
+        <div class="cali">
+          <h1>Southern California</h1>
+
+          <div class="theatre">
+            <div>
+              <a href="https://vanburendriveintheatre.com/" target="_blank">
+                <img src="/images/van-buren.png" alt="riverside" class="lazy">
+                <h4>Riverside</h4>
+              </a>
+            </div>
+
+            <div>
+              <a href="https://southbaydrivein.com/" target="_blank">
+                <img src="/images/south-bay.png" alt="san diego" class="lazy">
+                <h4>San Diego</h4>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="utah">
+          <h1>Utah</h1>
+
+          <div class="theatre">
+            <div>
+              <a href="https://redwooddrivein.com/nowplaying/" target="_blank"><img src="/images/drivein-logo.png"
+                  alt="west valley" class="lazy">
+                <h4>West Valley</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottom-section">
+      <div class="logo">
+        <a href="/index.html"><img src="/images/drivein-logo.png" alt="redwood logo" class="lazy"></a>
+      </div>
+
+      <div class="footer-menu">
+        <ul class="footer-list">
+          <li><a href="https://redwooddrivein.com/about/events/" target="_blank">Schedule an Event</a></li>
+          <li><a href="https://redwooddrivein.com/enjoy/" target="_blank">How to Enjoy the Drive-In</a></li>
+          <li><a href="https://redwooddrivein.com/coupons/" target="_blank">Coupons</a></li>
+          <li><a href="/html/vendors.html">Swap Meet Vendor Info</a></li>
+          <li><a href="https://redwooddrivein.com/about/privacy/" target="_blank">Privacy Policy</a></li>
+          <li><a href="https://redwooddrivein.com/news/" target="_blank">News</a></li>
+        </ul>
+      </div>
+
+      <div class="divider">
+        <hr>
+      </div>
+
+      <div class="media">
+        <section id="know-first">
+          <h3>Be the first to know</h3>
+          <p>Sign up for showtimes, special events, contests and more!</p>
+        </section>
+
+        <div id="subscribing">
+
+          <form class="form" onSubmit="subscriptionAlert()">
+            <input id="email" type="email" name="email" placeholder="your email..." required class="userinfo">
+            <input type="submit" name="submit" value="Subscribe" class="userbutton">
+          </form>
+
+          <div class="icons">
+            <a href="https://www.facebook.com/redwooddriveintheatre/" target="_blank"><img
+                src="/images/facebook-logo.svg" alt="facebook logo"></a>
+            <a href="https://www.instagram.com/redwooddrivein/" target="_blank"><img src="/images/instagram-logo.svg"
+                alt="instagram logo"></a>
+            <a href="https://twitter.com/redwooddrivein" target="_blank"><img src="/images/twitter-logo.svg"
+                alt="twitter logo"></a>
+            <a href="https://www.yelp.com/biz/redwood-drive-in-theatre-west-valley-2" target="_blank"><img
+                src="/images/yelp-logo.svg" alt="yelp logo"></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>
+        ©Redwood Drive-In Theatre. All Rights Reserved. <br>
+        Website Designed by Maggie McCausland
+      </p>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.2/dist/lazyload.min.js"></script>
+  <script>
+    var lazyLoadInstance = new LazyLoad({
+      elements_selector: ".lazy",
+      threshold: 0,
+    });
+  </script>
+
+  <script src="/js/scripts.js"></script>
+  <script src="/js/playing.js"></script>
+</body>
+
+</html>

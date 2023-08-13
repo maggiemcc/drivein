@@ -1,0 +1,416 @@
+[
+    {
+        "day": "Default",
+        "screenOne": {
+            "movieOne": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/default-movie.png"
+            }
+        }
+    },
+    {
+        "day": "Monday",
+        "screenOne": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        }
+    },
+
+    {
+        "day": "Tuesday",
+        "screenOne": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "closed for the season",
+                "photo": "/movieImages/closed.jpeg"
+            }
+        }
+    },
+
+    {
+        "day": "Wednesday",
+        "screenOne": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Smile",
+                "photo": "/movieImages/smile.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "The Invitation",
+                "photo": "/movieImages/invitation.png"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Pearl",
+                "photo": "/movieImages/pearl.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "Halloween Ends",
+                "photo": "/movieImages/halloween.png"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Halloween Ends",
+                "photo": "/movieImages/halloween.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "Barbarian",
+                "photo": "/movieImages/barbarian.png"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Lyle, Lyle Crocodile",
+                "photo": "/movieImages/crocodile.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "The Woman King",
+                "photo": "/movieImages/womanKing.png"
+            }
+        }
+    },
+    {
+        "day": "Thursday",
+        "screenOne": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "The Invitation",
+                "photo": "/movieImages/invitation.png"
+
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "Smile",
+                "photo": "/movieImages/smile.png"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "The Woman King",
+                "photo": "/movieImages/womanKing.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "Pearl",
+                "photo": "/movieImages/pearl.png"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Barbarian",
+                "photo": "/movieImages/barbarian.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "Halloween Ends",
+                "photo": "/movieImages/halloween.png"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Lyle, Lyle Crocodile",
+                "photo": "/movieImages/crocodile.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "Halloween Ends",
+                "photo": "/movieImages/halloween.png"
+            }
+        }
+    },
+    {
+        "day": "Friday",
+        "screenOne": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Avatar: THE WAY OF WATER",
+                "photo": "/movieImages/avatar.png"
+            },
+            "movieTwo": {
+                "time": "11:40 PM",
+                "name": "Avatar: THE WAY OF WATER",
+                "photo": "/movieImages/avatar.png"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "m3gan",
+                "photo": "/movieImages/m3gan.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "80 for brady",
+                "photo": "/movieImages/brady.png"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "10:10 PM",
+                "name": "missing",
+                "photo": "/movieImages/missing.png"
+            },
+            "movieTwo": {
+                "time": "8:00 PM",
+                "name": "plane",
+                "photo": "/movieImages/plane.png"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "10:10 PM",
+                "name": "plane",
+                "photo": "/movieImages/plane.png"
+            },
+            "movieTwo": {
+                "time": "8:00 PM",
+                "name": "Knock at the cabin",
+                "photo": "/movieImages/cabin.png"
+            }
+        }
+    },
+    {
+        "day": "Saturday",
+        "screenOne": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Avatar: THE WAY OF WATER",
+                "photo": "/movieImages/avatar.png"
+            },
+            "movieTwo": {
+                "time": "11:40 PM",
+                "name": "Avatar: THE WAY OF WATER",
+                "photo": "/movieImages/avatar.png"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "m3gan",
+                "photo": "/movieImages/m3gan.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "missing",
+                "photo": "/movieImages/missing.png"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "10:10 PM",
+                "name": "80 for brady",
+                "photo": "/movieImages/brady.png"
+
+            },
+            "movieTwo": {
+                "time": "8:00 PM",
+                "name": "plane",
+                "photo": "/movieImages/plane.png"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "10:10 PM",
+                "name": "Knock at the cabin",
+                "photo": "/movieImages/cabin.png"
+
+            },
+            "movieTwo": {
+                "time": "8:00 PM",
+                "name": "plane",
+                "photo": "/movieImages/plane.png"
+            }
+        }
+    },
+
+    {
+        "day": "Sunday",
+        "screenOne": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Avatar: THE WAY OF WATER",
+                "photo": "/movieImages/avatar.png"
+            },
+            "movieTwo": {
+                "time": "",
+                "name": "",
+                "photo": "/movieImages/oneShowing.png"
+            }
+        },
+        "screenTwo": {
+            "movieOne": {
+                "time": "8:00 PM",
+                "name": "Knock at the cabin",
+                "photo": "/movieImages/cabin.png"
+            },
+            "movieTwo": {
+                "time": "10:10 PM",
+                "name": "m3gan",
+                "photo": "/movieImages/m3gan.png"
+            }
+        },
+        "screenThree": {
+            "movieOne": {
+                "time": "10:10 PM",
+                "name": "80 for brady",
+                "photo": "/movieImages/brady.png"
+            },
+            "movieTwo": {
+                "time": "8:00 PM",
+                "name": "plane",
+                "photo": "/movieImages/plane.png"
+            }
+        },
+        "screenFour": {
+            "movieOne": {
+                "time": "10:10 PM",
+                "name": "plane",
+                "photo": "/movieImages/plane.png"
+            },
+            "movieTwo": {
+                "time": "8:00 PM",
+                "name": "missing",
+                "photo": "/movieImages/missing.png"
+            }
+        }
+    }
+]

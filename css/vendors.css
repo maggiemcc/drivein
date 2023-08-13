@@ -1,0 +1,61 @@
+#main-content {
+  width: 90%;
+  max-width: 750px;
+  margin: 1.5rem auto;
+}
+
+#main-content h3{
+  text-align: center;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#main-content h3, details summary {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#main-content p{
+  padding-bottom: 2%;
+}
+
+
+.sub-content {
+  margin: 2% 0 5% 0;
+}
+
+
+details {
+ margin: 3% 0;
+ border: 1px solid black;
+ border-radius: 4px 4px;
+cursor: pointer;
+box-shadow: 1px 1px 3px gray;
+}
+
+details summary {
+  border-radius: 4px;
+  padding:2%;
+}
+
+.detail-content {
+ width: 95%;
+ margin: auto;
+}
+
+.detail-content ul {
+  padding: 2% 2%;
+}
+
+.detail-content li {
+  margin-bottom: 10px;
+  font-family: "lato", sans-serif;
+}
+
+@media only screen and (max-width: 450px) {
+  .detail-content {
+    width: 88%;
+    margin: auto;
+   }
+}

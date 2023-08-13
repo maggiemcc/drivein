@@ -1,0 +1,100 @@
+main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+main p {
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+#background-image {
+    background-image: url("/images/wood3.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: contain;
+    padding: 4rem 2%;
+    margin-top: 2rem;
+    background-size: 100%;
+    min-height: 300px;
+    /* border-top: 3px solid #000; */
+
+    box-shadow: 
+    inset 0px 20px 18px -10px #000,
+    inset 0px -20px 18px -10px #000; 
+}
+
+
+#moviePosters {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 900px;
+
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    column-gap: 2%;
+    row-gap: 20px;
+}
+
+
+.movie {
+    width: 150px;
+    padding: 0;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+    /* filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7)); */
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-name {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 2%;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 880px) {
+
+
+    #moviePosters {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .movie {
+        margin: 0 auto;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 660px) {
+
+    #moviePosters {
+        grid-template-columns: repeat(3, auto);
+    }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    #moviePosters {
+        grid-template-columns: repeat(2, auto);
+    }
+
+}

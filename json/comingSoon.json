@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Black Adam",
+        "photo": "/comingSoon/adam.png"
+    },
+    {
+        "name": "Ticket to Paradise",
+        "photo": "/comingSoon/paradise.png"
+    },
+    {
+        "name": "renfield",
+        "photo": "/comingSoon/renfield.png"
+    },
+    {
+        "name": "Devotion",
+        "photo": "/comingSoon/devotion.png"
+    },
+    {
+        "name": "Barbie",
+        "photo": "/comingSoon/barbie.png"
+    },
+    {
+        "name": "Puss in Boots: The Last Wish",
+        "photo": "/comingSoon/puss.png"
+    },
+    {
+        "name": "I Wanna Dance With Somebody",
+        "photo": "/comingSoon/whitney.png"
+    },
+    {
+        "name": "Mission Impossible: Dead Reckoning",
+        "photo": "/comingSoon/mission.png"
+    },
+    {
+        "name": "Spider-Man: Across the Spider Verse",
+        "photo": "/comingSoon/spiderman.png"
+    },
+    {
+        "name": "Guardians of the Galaxy volume 3",
+        "photo": "/comingSoon/galaxy.png"
+    }
+]

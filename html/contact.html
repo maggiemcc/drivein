@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/redwood-logo.svg" type="image/x-icon">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/css/header&Footer.css">
+    <link rel="stylesheet" type="text/css" href="/css/contact.css">
+
+    <title>Contact Redwood Drive-In</title>
+  </head>
+
+  <body>
+    <!-- Begining of header -->
+    <div class="headerWrapper-desktop">
+      <div class="header-image">
+        <header>
+          <a href="/index.html">
+            <h1>Redwood Drive-In Theatre</h1>
+          </a>
+          <h5>West Valley City, Utah</h5>
+        </header>
+
+        <!-- Begining of Navigation -->
+        <div class="navWrapper">
+          <nav>
+            <ul class="dropdown">
+              <li><a href="/index.html">Now Playing</a></li>
+              <li><a href="/html/comingSoon.html">Coming Soon</a></li>
+              <li><a href="/html/swapmeet.html">Swap Meet</a></li>
+              <li id="active-desktop">
+                <a href="/html/contact.html">Map & Contact</a>
+              </li>
+              <li><a href="/html/aboutUs.html">About Us</a></li>
+              <li><a href="/html/photos.html">Photos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="headerWrapper-mobile">
+      <header>
+        <div class="container">
+          <div class="subcontainer">
+            <nav class="navbar">
+              <a href="/index.html" class="navBranding">Redwood Drive-In</a>
+
+              <ul class="navMenu">
+                <li><a href="/index.html">Now Playing</a></li>
+                <li><a href="/html/comingSoon.html">Coming Soon</a></li>
+                <li><a href="/html/swapmeet.html">Swap Meet</a></li>
+                <li id="active-mobile">
+                  <a href="/html/contact.html">Map & Contact</a>
+                </li>
+                <li><a href="/html/aboutUs.html">About Us</a></li>
+                <li><a href="/html/photos.html">Photos</a></li>
+              </ul>
+              <div class="hamburger">
+                <span>&#9776;</span>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- end of wrapper -->
+
+    <!-- Begining of main -->
+    <main>
+      <div class="map-info">
+        <h1>Directions</h1>
+        <div class="map-sections">
+          <section id="item-one">
+            <h2>Address:</h2>
+            <h4>38688 S. Redwood Road</h4>
+            <h4>West Valley, Ut 84119</h4>
+
+            <a
+              class="button-directions"
+              href="https://www.google.com/maps/dir//Redwood+Drive-in+Theatre+and+Swap+Meet,+3688+S+Redwood+Rd,+West+Valley+City,+UT+84119/@40.6903718,-112.0122979,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87528b7092666c41:0x78aafe2503013e9f!2m2!1d-111.942258!2d40.690393"
+              target="_blank"
+            >
+              <h3 id="button">Get Directions</h3>
+            </a>
+          </section>
+
+          <img id="item-two" src="/images/map.png" alt="map">
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <h1>Contact</h1>
+        <div id="information">
+          <div id="div1">
+            <h2>Phone:</h2>
+            <h3>801-973-7088</h3>
+          </div>
+          <div>
+            <h2>Email:</h2>
+            <h3>info@redwooddrivein.com</h3>
+          </div>
+        </div>
+
+        <form method="get" action="/html/thanks.html">
+          <fieldset>
+            <label
+              >First Name*
+              <input type="text" name="fname" placeholder="John" required></label>
+            <label
+              >Last Name*
+              <input type="text" name="lname" placeholder="Doe" required></label>
+          </fieldset>
+
+          <fieldset>
+            <label
+              >Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="johndoe@gmail.com"
+                required></label>
+            <label
+              >Phone
+              <input
+                type="tel"
+                name="phone"
+                placeholder="000-000-0000"
+                pattern="[0-9-. ]{10,14}"></label>
+          </fieldset>
+
+          <fieldset id="message-fieldset">
+            <label
+              >Message*
+              <textarea placeholder="your message" required></textarea>
+            </label>
+          </fieldset>
+
+          <p>* Required fields</p>
+          <div id="submit">
+            <input
+              type="submit"
+              value="Send Message"
+              class="submitBtn"
+            >
+          </div>
+        </form>
+      </div>
+    </main>
+
+  <!-- Begining of footer -->
+  <footer>
+    <div class="footer-posters">
+      <div class="photos">
+        <a href="/html/swapmeet.html"><img src="/images/swapmeet.svg" alt="swap meet" class="lazy"></a>
+        <a href="https://redwooddrivein.com/enjoy/" target="_blank"><img src="/images/how-to.svg" alt="fqa"
+            class="lazy"></a>
+        <a href="https://redwooddrivein.com/coupons/" target="_blank"><img src="/images/coupons.svg" alt="coupons"
+            class="lazy"></a>
+      </div>
+    </div>
+
+    <div class="footer-locations">
+      <div id="locations-grid">
+
+        <div class="cali">
+          <h1>Southern California</h1>
+
+          <div class="theatre">
+            <div>
+              <a href="https://vanburendriveintheatre.com/" target="_blank">
+                <img src="/images/van-buren.png" alt="riverside" class="lazy">
+                <h4>Riverside</h4>
+              </a>
+            </div>
+
+            <div>
+              <a href="https://southbaydrivein.com/" target="_blank">
+                <img src="/images/south-bay.png" alt="san diego" class="lazy">
+                <h4>San Diego</h4>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="utah">
+          <h1>Utah</h1>
+
+          <div class="theatre">
+            <div>
+              <a href="https://redwooddrivein.com/nowplaying/" target="_blank"><img src="/images/drivein-logo.png"
+                  alt="west valley" class="lazy">
+                <h4>West Valley</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottom-section">
+      <div class="logo">
+        <a href="/index.html"><img src="/images/drivein-logo.png" alt="redwood logo" class="lazy"></a>
+      </div>
+
+      <div class="footer-menu">
+        <ul class="footer-list">
+          <li><a href="https://redwooddrivein.com/about/events/" target="_blank">Schedule an Event</a></li>
+          <li><a href="https://redwooddrivein.com/enjoy/" target="_blank">How to Enjoy the Drive-In</a></li>
+          <li><a href="https://redwooddrivein.com/coupons/" target="_blank">Coupons</a></li>
+          <li><a href="/html/vendors.html">Swap Meet Vendor Info</a></li>
+          <li><a href="https://redwooddrivein.com/about/privacy/" target="_blank">Privacy Policy</a></li>
+          <li><a href="https://redwooddrivein.com/news/" target="_blank">News</a></li>
+        </ul>
+      </div>
+
+      <div class="divider">
+        <hr>
+      </div>
+
+      <div class="media">
+        <section id="know-first">
+          <h3>Be the first to know</h3>
+          <p>Sign up for showtimes, special events, contests and more!</p>
+        </section>
+
+        <div id="subscribing">
+
+          <form class="form" onSubmit="subscriptionAlert()">
+            <input id="email" type="email" name="email" placeholder="your email..." required class="userinfo">
+            <input type="submit" name="submit" value="Subscribe" class="userbutton">
+          </form>
+
+          <div class="icons">
+            <a href="https://www.facebook.com/redwooddriveintheatre/" target="_blank"><img
+                src="/images/facebook-logo.svg" alt="facebook logo"></a>
+            <a href="https://www.instagram.com/redwooddrivein/" target="_blank"><img src="/images/instagram-logo.svg"
+                alt="instagram logo"></a>
+            <a href="https://twitter.com/redwooddrivein" target="_blank"><img src="/images/twitter-logo.svg"
+                alt="twitter logo"></a>
+            <a href="https://www.yelp.com/biz/redwood-drive-in-theatre-west-valley-2" target="_blank"><img
+                src="/images/yelp-logo.svg" alt="yelp logo"></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>
+        ©Redwood Drive-In Theatre. All Rights Reserved. <br>
+        Website Designed by Maggie McCausland
+      </p>
+    </div>
+
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.2/dist/lazyload.min.js"></script>
+    <script>
+      var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy",
+        threshold: 0,
+      });
+    </script>
+  
+
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
